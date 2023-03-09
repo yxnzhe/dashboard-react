@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.eventID {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.eventName,
+.eventTime,
+.dash,
+.eventLocation{
+  font-size: 18px;
+}
+
+.eventTime {
+  color: #a2a2a2;
+}
+
+.eventPhoto img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.eventStatus {
+  font-size: 14px;
+  background-color: #2667d5;
+  color: white;
+  font-weight: 600;  
+  padding: 8px 22px 8px 22px;
+  border-radius: 10px;
+  margin: auto;
+  float: right;
+}
