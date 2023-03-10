@@ -13,8 +13,13 @@ code {
 }
 
 .eventID {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
+  margin-bottom: 0;
+}
+
+.eventName {
+  margin-top: 5px;
 }
 
 .eventName,
@@ -29,7 +34,7 @@ code {
 }
 
 .eventPhoto img {
-  width: 80%;
+  width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
@@ -45,4 +50,10 @@ code {
   border-radius: 10px;
   margin: auto;
   float: right;
+}
+
+.detectionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
 }
