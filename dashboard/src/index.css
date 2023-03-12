@@ -15,11 +15,11 @@ code {
 .eventID {
   font-size: 22px;
   font-weight: 600;
-  margin-bottom: 0;
 }
 
 .eventName,
-.eventLocation {
+.eventLocation,
+.eventID {
   margin-top: 5px;
   margin-bottom: 0;
 }

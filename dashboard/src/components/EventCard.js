@@ -60,7 +60,7 @@ const EventCard = (props) => {
                 >
                   {({ TransitionProps }) => (
                     <Fade {...TransitionProps} timeout={350}>
-                      <Paper sx={{ m: 2, width: "100%", height: "auto", p: 2 }}>
+                      <Paper style={{ borderRadius: "10px" }}sx={{ m: 2, width: "100%", height: "auto", p: 3 }}>
                         <Typography>
                           <div className="eventDetails">
                             <p className="eventID">ID: { props.data.id }</p>
