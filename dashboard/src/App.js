@@ -8,10 +8,10 @@ function App() {
       <header className="App-header">
         <h1>Dashboard</h1>
         <Grid container>
-          <Grid xs={4}>
+          <Grid xs={12} sm={4}>
             <Table />
           </Grid>
-          <Grid xs={8}>
+          <Grid xs={12} sm={8}>
             <p>Graph</p>
           </Grid>
         </Grid>

@@ -18,8 +18,10 @@ code {
   margin-bottom: 0;
 }
 
-.eventName {
+.eventName,
+.eventLocation {
   margin-top: 5px;
+  margin-bottom: 0;
 }
 
 .eventName,
@@ -56,4 +58,8 @@ code {
   width: 100%;
   border-collapse: collapse;
   margin: 0 auto;
+}
+
+.eventButton button {
+  margin: 10px;
 }

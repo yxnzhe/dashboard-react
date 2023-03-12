@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Card from '../components/Card';
+import EventCard from '../components/EventCard';
 import { supabase } from '../supabaseClient'
 
 const Table = () => {
@@ -24,7 +24,7 @@ const Table = () => {
   return (
     <div className="detectionTable">
         { detection && detection.map((item) => (
-					<Card key={item.id} data={item} />
+					<EventCard key={item.id} data={item} />
 				))}
     </div>
   )
